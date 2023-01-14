@@ -35,9 +35,9 @@ function App() {
   }
 
   return (
-    <VStack p={4}>
+    <VStack p={5}>
       <IconButton icon={<FaSun/>} isRound="true" size="lg" alignSelf="flex-end"/>
-      <Heading mb="8" fontWeight="extrabold" size="2xl" bgGradient="linear(to-r, pink.500, pink.300, blue.500)" bgClip="text">
+      <Heading p={10} fontWeight="extrabold" size="2xl" bgGradient="linear(to-r, pink.500, pink.300, blue.500)" bgClip="text">
         Todo Application
       </Heading>
       <TodoList todos={todos} deleteTodo={deleteTodo} addTodo={addTodo} />
